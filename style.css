@@ -1,0 +1,140 @@
+/* variables */
+.primary-color{
+    color: #4E47FF;
+}
+
+.primary-bg{
+    background-color    : #F5F8FF;
+}
+
+.secondary-bg{
+    background-color: #4E47FF1A;
+}
+
+.text-black{
+    color: #252432;
+}
+
+.radious-large{
+    border-radius: 48px;
+}
+
+.large-gray-text{
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 24px;
+
+}
+
+.section-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px 0px;
+}
+
+/* global styles */
+.section-margin{
+    margin: 110px 150px;
+}
+.section{
+    margin: 50px 150px;
+}
+
+.primary-bg{
+    background-color: #F5F8FF;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: #F5F8FF;
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.width-50{
+    width: 50%;
+}
+
+
+/* Header Style  */
+header{
+    background-image: url(Assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+   
+}
+
+.logo-text{
+    font-size: 34px;
+    font-weight: 900;
+}
+
+/* Banner Style */
+
+.banner{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content{
+    width: 905px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-title{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Join Section Styles */
+.join-container{
+    display: flex;
+    align-items: center;
+}
