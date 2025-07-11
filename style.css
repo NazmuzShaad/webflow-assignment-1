@@ -11,6 +11,12 @@
     background-color: #4E47FF1A;
 }
 
+.bg-white{
+    background-color: white;
+}
+
+
+
 .text-black{
     color: #252432;
 }
@@ -24,6 +30,16 @@
     font-size: 24px;
 
 }
+.regular-gray-text{
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 20px;
+
+}
+.small-gray-text{
+    color: #1E1E1E;
+    /* font-size: 16px; */
+
+}
 
 .section-title{
     font-size: 42px;
@@ -31,12 +47,43 @@
     margin: 0px 0px;
 }
 
+.heading-small{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.weight-600{
+    font-weight: 600;
+}
+
+.padding-24{
+    padding: 24px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* global styles */
-.section-margin{
-    margin: 110px 150px;
+.section-large{
+    padding: 110px 150px;
 }
 .section{
-    margin: 50px 150px;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
 }
 
 .primary-bg{
@@ -86,6 +133,15 @@
 .width-50{
     width: 50%;
 }
+.width-100{
+    width: 100%;
+}
+
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
 
 
 /* Header Style  */
@@ -108,6 +164,7 @@ header{
 .logo-text{
     font-size: 34px;
     font-weight: 900;
+    margin: 50px 0px;
 }
 
 /* Banner Style */
@@ -137,4 +194,53 @@ header{
 .join-container{
     display: flex;
     align-items: center;
+    padding: 50px 142px;
+    flex-direction: column;
+   
+}
+
+.count-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin-top: 40px;
+}
+
+.number-blue{
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.number-blue{
+    margin: 0px;
+}
+
+/* what Users say section Style */
+.star-container{
+    display: flex;
+}
+
+.review-date{
+    color: #B3B3B3;
+    font-size: 16px;
+}
+
+.author-container{
+    display: flex;
+}
+
+.avater-image{
+    margin-right: 10px;
+}
+
+/* Ready section styles */
+
+.ready-section-container{
+    background-color: white;
+    border-radius: 48px;
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
