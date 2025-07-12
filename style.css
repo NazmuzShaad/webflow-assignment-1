@@ -57,6 +57,10 @@
     gap: 15px;
 }
 
+.gap-100{
+    gap: 100px;
+}
+
 .weight-600{
     font-weight: 600;
 }
@@ -243,4 +247,35 @@ header{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+
+/* Get in touch Styles */
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    margin: 20px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="email"], input[type="text"], textarea{
+    border:solid 1px #D6DDED;
+    padding: 20px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+input[type=submit]{
+    border-radius: 10px;
+    color: white;
+    background-color: #4E47FF;
+    padding: 19px 100px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
 }
